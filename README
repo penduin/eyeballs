@@ -1,12 +1,6 @@
 Ever felt the pressing need to stick a pair of eyeballs onto your web page?
-
 No?
-
-Well here's a way to do it anyway.  Just include the following code anywhere
-on your page:
-  <script src="eyeballs.js"></script>
-...or, if you're too lazy to host a copy:
-  <script src="http://penduin.github.io/eyeballs/eyeballs.js"></script>
+Well here's a way to do it anyway.
 
 What?  You want to see it in action?!
 http://penduin.github.io/eyeballs/

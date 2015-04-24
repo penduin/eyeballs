@@ -50,10 +50,7 @@
 		draweye(canv.width * 3 / 4, winkRight);
 	};
 	window.addEventListener("load", function() {
-		canv.className = "EYEBALLS";
-		canv.style.position = canv.style.position || "absolute";
-		canv.style.right = canv.style.right || "1px";
-		canv.style.bottom = canv.style.bottom || "1px";
+		canv.id = "EYEBALLS";
 		document.body.appendChild(canv);
 		draw();
 		window.addEventListener("mousemove", function(e) {

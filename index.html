@@ -1,9 +1,28 @@
 <html>
 <head>
 <title>eyeballs test page</title>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no" />
 <style>
 body {
+  font-family: sans-serif;
+  background: grey;
+  margin-top: 50px;
+}
+p {
+  padding: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
   background: silver;
+}
+textarea {
+  margin-left: 10%;
+  display: block;
+  width: 80%;
+}
+#EYEBALLS {
+  position: absolute;
+  top: 1px;
+  right: 50%;
 }
 </style>
 <script src="eyeballs.js"></script>
@@ -14,9 +33,25 @@ There they are.  They follow your mouse cursor and wink when you click.
 </p>
 <p>
 With CSS, you can size and position them any way you like.
+It's the single greatest innovation to hit the web since hypertext itself!
 </p>
 <p>
-It's the single greatest innovation to hit the web since hypertext itself!
+To stick 'em on your site, insert this any-old-where:
+<textarea width=80>
+  <script src="eyeballs.js"></script>
+</textarea>
+...or, if you're too lazy to host a copy:
+<textarea width=80>
+  <script src="http://penduin.github.io/eyeballs/eyeballs.js"></script>
+</textarea>
+Then size and position it however you like with CSS.  This page uses:
+<textarea rows=5>
+#EYEBALLS {
+  position: absolute;
+  top: 1px;
+  right: 50%;
+}
+</textarea>
 </p>
 </body>
 </html>
