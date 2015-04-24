@@ -1,3 +1,7 @@
+/*
+eyeballs.js (c) 2015 Owen Swerkstrom
+GPLv3, but seriously, use this however you want.  I don't care.  :^)
+*/
 (function() {
 	var canv = document.createElement("canvas");
 	var ctx = canv.getContext("2d");
